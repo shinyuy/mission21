@@ -89,7 +89,7 @@ export default function Slideshow() {
         <p className="text-sm text-gray-500"></p>
       </header>
 
-      {/* Slide Content */}
+   
       <div className="flex flex-1 items-center justify-center px-4 md:px-10 py-8 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-6xl w-full">
           {/* Image Section */}
@@ -109,7 +109,7 @@ export default function Slideshow() {
             </div>
           </div>
 
-          {/* Text Section */}
+       
           <div className="text-left space-y-6 order-2 md:order-1">
             <h2 className="text-2xl sm:text-3xl font-bold text-green-900">
               {slides[current].title}
@@ -121,7 +121,7 @@ export default function Slideshow() {
         </div>
       </div>
 
-      {/* Navigation Controls */}
+    
       <div className="flex justify-center gap-6 pb-8 pt-16">
         <button
           onClick={goPrev}
